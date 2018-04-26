@@ -1,0 +1,279 @@
+#login, #register {
+	border-color: #a6a5a3;
+	background-color: #a6a5a3;
+	border-width: 2px;
+	border-style: solid;
+	width: 30%;
+	text-align: center;
+	font-family: Gadugi;
+	margin: auto;
+    width: 400px;
+    margin-top: 100px;
+    color: #3e3c4d;
+}
+
+input[type=text], input[type=password], input[type=email] {
+    width: 70%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+.reply{
+	font-size:13px !important;
+}
+
+.reply h6{
+	font-size:13px !important;
+}
+
+.logBut{
+	width:40%;
+	padding: 12px 20px;
+	background-color: #32608c;
+	color: #ffffff;
+}
+
+.card-gal{
+	margin: 20px 20px 20px 20px;
+	width: 18rem;
+	display: inline-block;
+	height: 320px;
+	text-align: center;
+	background-color: #ffffff;
+}
+
+.card-img-top{
+	width: 100%;
+	height: 200px;
+	object-fit: cover;
+}
+
+.card-body-gal{
+	margin-top: 20px;
+	margin-right: 10px;
+	line-height: 0.5;
+}
+
+.card-text-bottom{
+	text-align: right;
+	font-size: 0.8em;
+}
+
+.gallery{
+	margin-left: auto;
+	margin-right:auto;
+	width: 80%;
+}
+
+.modal{
+	display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+.display-block{
+	display: block;
+}
+
+#close {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+#close:hover, #close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal{
+	z-index: 2000;
+}
+
+body{
+	background-color: #e5e5e5;
+	color: gray;
+}
+
+a.active{
+	color: white;
+}
+
+a{
+	color: #e5e5e5;
+}
+
+a:hover {
+	color: #ffffff;
+}
+
+nav{
+	margin-bottom:30px;
+}
+
+.centered{
+	display:block;
+	margin-top:30px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align:center;
+}
+
+.card-text{
+	display:block;
+}
+
+.writtenby{
+	margin-top: 20px;
+	float:right;
+}
+
+.fav-btn{
+	background-color: #9a86eb;
+	color:white;
+}
+
+.fav-btn.active, .fav-btn:hover{
+	background-color: #c48b80 !important;
+	color: white !important;
+}
+
+
+.favorite{
+	width:40%;
+	padding: 10px 20px;
+	background-color: #9a86eb;
+	color:white;
+}
+
+.favorite.active, .favorite:hover{
+	background-color: #c48b80 !important;
+	color: white !important;
+}
+
+.btn-com{
+	background-color: #8aa6d1;
+	color: white;
+}
+
+.btn-com.active, .btn-com:hover{
+	background-color: #9bc497 !important;
+	color: white !important;
+}
+
+.btn-date{
+	background-color: #599bc7 !important;
+	border: none;
+	color: white !important;
+}
+
+.btn-date.active, .btn-date:hover{
+	background-color: #4e7dab !important;
+}
+
+.delete{
+	width:40%;
+	padding: 10px 20px;
+	background-color: #fa6150;
+	color: #ffffff;
+}
+
+.delete.active, .delete:hover{
+	background-color: #d1514b !important;
+	color: white !important;
+}
+
+.delete-post{
+	padding: 10px 20px;
+	background-color: #fa6150;
+	color: #ffffff;
+}
+
+.delete-post.active, .delete-post:hover{
+	background-color: #d1514b !important;
+	color: white !important;
+}
+
+.btn-edit{
+	padding: 10px 20px;
+	margin-right: 10px;
+	background-color: #6593d4;
+	color: #ffffff;
+}
+
+.btn-edit.active, .btn-edit:hover{
+	background-color: #305775 !important;
+	color: white !important;
+}
+
+#div-add{
+	width: 100%;
+	margin-left: 40px;
+}
+
+#imagesubmit{
+	width: 100%;
+	margin-left: 25px;
+	color: #305775;
+}
+
+.float-left{
+	float:left;
+}
+
+.float-right{
+	float:left;
+}
+
+.card-post{
+	width:60%;
+	padding-bottom: 20px;
+	margin-bottom: 40px;
+}
+
+.post-thumb {
+    float: left;
+    width:30%;
+}
+.post-thumb img {
+    display: block
+}
+.post-content {
+    margin-left: 300px;
+}
+.post-title {
+    font-weight: bold;
+    font-size: 200%;
+    padding: 9px;
+    background: #ccc
+}
+.card-body{
+	overflow:auto;
+}
+
+#aboutus{
+	width: 100%;
+	margin-top: 30px;
+}
+
